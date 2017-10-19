@@ -84,8 +84,9 @@ img .header{
 
 .div-derecho{
     float: right;
-    width: 47%;
-    background: #FAFAFA;
+    width: 40%;
+    margin-right: 5%;
+    background: white;
     opacity: 0.5;
     height: 100%
 }
@@ -104,18 +105,27 @@ img .header{
     }
 .seccionbiografia.textosbiografia{
     width: 35%;
-    z-index: 20;
     position: absolute;
-    right: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
     top: 230%;
     margin-top: 15%;
     position: relative;
     padding: 40px; 
     width: 30%;
-        font-family: 'Kanit', 
+    font-family: 'Kanit', 
 }
 /*Fin biografia*/
 /*Comienzo contactos*/
+.placacontacto {
+    float: left;
+    position: relative;
+    margin-left: 5%;
+    width: 40%;
+    background: white;
+    opacity: 0.5;
+    height: 100vh;
+}
 #Contacto {clear: both;
     background-image: url(../imagenes/Aldea.JPG);
     background-size: cover;
@@ -124,11 +134,13 @@ img .header{
     position: relative;
     overflow: hidden;
 }
-.planillacontacto {
-    margin-top: 15%;
+
+.planillacontacto{
     position: relative;
-    padding: 40px; 
+    padding: 5%; 
+    height: 100vh;
     width: 30%;}
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -137,6 +149,7 @@ textarea {
     margin-bottom:15px;
     padding:10px;
 }
+
 
 /*Fin contactos*/
 
